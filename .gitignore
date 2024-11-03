@@ -1,0 +1,37 @@
+# Ignorar archivos y carpetas de Maven y Gradle (Java / Spring Boot)
+target/
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Archivos y carpetas de node (React)
+node_modules/
+build/
+dist/
+
+# Archivos de configuración de la aplicación
+.env
+.env.local
+.env.*.local
+
+# Archivos de log y de sistema
+*.log
+logs/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Configuración de sistema operativo
+*.bak
+*.tmp
+*~

@@ -1,0 +1,161 @@
+/* main.css */
+
+/* Importa una fuente atractiva desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.sidebar {
+  width: 200px;
+  background-color: #111214;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen superior si es necesario */
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  width: 60px; /* Ajusta el tamaño deseado */
+  height: 60px;
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  object-fit: cover; /* Asegura que la imagen se recorte correctamente dentro del contenedor redondo */
+}
+
+/* main.css */
+
+.logo {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen superior si es necesario */
+}
+
+.logo h1,
+.logo p {
+  text-align: center;
+  margin: 0; /* Elimina el margen superior e inferior */
+}
+
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+}
+
+.menu ul li {
+  margin-bottom: 20px;
+}
+
+.menu ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #ff0000; /* Cambia a un color dorado al pasar el mouse */
+}
+
+/* main.css */
+
+.custom-wrapper {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin-left: 0; /* Se elimina el margen aquí */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px; /* Ajusta el valor para bajar la tabla */
+}
+
+.table-container .table {
+  width: 80%; /* Ajusta el ancho de la tabla si es necesario */
+}
+
+
+/* main.css */
+
+body {
+  background-color: #212529; /* Color gris claro para el fondo */
+  margin: 0;
+  padding: 0;
+}
+
+.custom-wrapper {
+  margin-left: 200px; /* Mismo ancho que el sidebar */
+  padding: 20px;
+  min-height: 100vh; /* Para asegurarse de que cubra toda la altura de la ventana */
+  background-color: #212529; 
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container .table {
+  width: 80%; /* Ajusta el ancho de la tabla si es necesario */
+}
+
+
+.white-text {
+  color :#f0f0f0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.card {
+  width: 18rem;
+  min-height: 22rem;
+  margin: 10px;
+}
+
+
+
+/* main.css */
+.custom-navbar {
+  background-color: #212529; /* Asegúrate de que el fondo sea oscuro */
+}
+
+.custom-navbar .form-control {
+  background-color: #343a40; /* Fondo oscuro del input */
+  color: white; /* Color de texto blanco */
+}
+
+.custom-navbar .form-control::placeholder {
+  color: #ffffff; /* Color del texto del placeholder */
+}
+
+.custom-navbar .btn-outline-light {
+  color: white; /* Color del texto del botón */
+  border-color: white; /* Color del borde del botón */
+}
+
+.custom-navbar .btn-outline-light:hover {
+  background-color: white; /* Color de fondo en hover */
+  color: black; /* Color de texto en hover */
+}
